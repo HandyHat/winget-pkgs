@@ -1,0 +1,27 @@
+# Created with YamlCreate.ps1 v2.2.8 $debug=NVS1.CRLF.7-3-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: ETC.EosFamily
+PackageVersion: 3.2.3.19
+InstallerType: zip
+InstallerSwitches:
+  Silent: /S
+  SilentWithProgress: /S
+UpgradeBehavior: install
+FileExtensions:
+- esf
+- esf2
+- esf3d
+ReleaseDate: 2023-07-13
+Installers:
+- Architecture: x64
+  NestedInstallerType: exe
+  NestedInstallerFiles:
+  - RelativeFilePath: ./ETC_EosFamily_v3.2.3.19.exe
+  InstallerUrl: https://cdn.etcconnect.com/ETC_EosFamily_v3.2.3.19.zip
+  InstallerSha256: B25A54907D0D10967F081122F8B27A9D24291E5C26482B9F38A7A44893A78297
+AppsAndFeaturesEntries:
+  - DisplayName: Eos Family ETCnomad Software
+  - DisplayName: ETCnomad Eos Application v3
+ManifestType: installer
+ManifestVersion: 1.4.0

@@ -1,0 +1,32 @@
+# Created with YamlCreate.ps1 v2.2.8 $debug=NVS1.CRLF.7-3-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
+
+PackageIdentifier: ETC.EosFamily
+PackageVersion: 3.2.3.19
+PackageLocale: en-US
+Publisher: Electronic Theatre Controls, Inc.
+PublisherUrl: https://www.etcconnect.com/
+PublisherSupportUrl: https://www.etcconnect.com/Support/
+PrivacyUrl: https://www.etcconnect.com/Privacy-Policy-Terms-of-Use-and-Acceptable-Use.aspx#privacy
+# Author:
+PackageName: Eos Family
+PackageUrl: https://www.etcconnect.com/Eos-Software
+License: Proprietary
+LicenseUrl: https://www.etcconnect.com/licenses/
+Copyright: © 2023 Electronic Theatre Controls, Inc.
+CopyrightUrl: https://www.etcconnect.com/ip/
+ShortDescription: ETC Eos Family is a suite of software that allows you to interact with Eos hardware.
+# Description:
+# Moniker:
+Tags:
+- eos
+- eosnomad
+- etc
+- lighting
+# ReleaseNotes:
+ReleaseNotesUrl: https://www.etcconnect.com/WorkArea/DownloadAsset.aspx?id=10737514650
+# PurchaseUrl:
+# InstallationNotes:
+# Documentations:
+ManifestType: defaultLocale
+ManifestVersion: 1.4.0
